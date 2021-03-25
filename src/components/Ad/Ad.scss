@@ -1,0 +1,18 @@
+.ad-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 32px;
+    line-height: 32px;
+    background: #FEFAF5;
+    img {
+        margin: 7px 10px 7px 22px;
+        width: 16px;
+        height: 16px;
+    }
+    span {
+        font-size: 13px;
+        font-weight: 700;
+        color: #E6A23C;
+    }
+}
