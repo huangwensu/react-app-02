@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Tabs, WhiteSpace } from 'antd-mobile';
+import { Tabs, WhiteSpace } from 'antd-mobile'
 import banner from "../../assets/images/banner.png"
 import './Banner.scss'
 import TabOne from "../../components/TabOne/TabOne"
@@ -11,9 +11,8 @@ const tabs = [
     { title: '我的任务' }
 ];
 export default class Banner extends Component {
-    state = {num: 1}
     test = () => {
-        console.log("=============this",this)
+        
     }
     render() {
         return (
